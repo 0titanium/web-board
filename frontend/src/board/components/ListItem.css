@@ -1,0 +1,36 @@
+.board-list > .item {
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.board-list > .item > div {
+    display: inline-block;
+    text-align: center;
+}
+
+.board-list > .item > .num {
+    width: 10%;
+}
+
+.board-list > .item > .writer {
+    width: 10%;
+}
+
+.board-list > .item > .writeDate {
+    width: 15%;
+}
+
+.board-list > .item > .viewNum {
+    width: 10%;
+}
+
+.item > a {
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    width: 55%;
+}
+
+.item > a:hover {
+    text-decoration: underline;
+}

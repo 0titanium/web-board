@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.post-frame {
+    width: 1000px;
+    height: 703px;
+    margin-left: 258px;
+    margin-right: 259px;
+    margin-bottom: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: none;;
+}
+
+.title-box {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.writer-box {
+    border: 1px solid gray;
+}
+
+.post-writer {
+    display: inline-block;
+    padding: 10px;
+}
+
+.content-box {
+    width: 1000px;
+    height: 570px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.post-btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 50px; */
+    margin: auto;
+}
+
+.auth-input {
+    margin: 0 auto;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-writer, auth-pw {
+    margin-right: 20px;
+}
+
+.update-btn {
+    margin: 10px;
+}

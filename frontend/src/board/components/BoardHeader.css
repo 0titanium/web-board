@@ -1,0 +1,30 @@
+.board-header {
+    padding: 10px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid gray;
+}
+
+.board-header > div {
+    display: inline-block;
+    text-align: center;
+}
+
+.board-header > .num {
+    width: 10%;
+}
+
+.board-header > .title {
+    width: 55%;
+}
+
+.board-header > .writer {
+    width: 10%;
+}
+
+.board-header > .writeDate {
+    width: 15%;
+}
+
+.board-header > .viewNum {
+    width: 10%;
+}

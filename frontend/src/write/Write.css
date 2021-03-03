@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.write-frame {
+    width: 1000px;
+    height: 723px;
+    margin-left: 258px;
+    margin-right: 259px;
+    margin-bottom: 50px;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: none;;
+}
+
+.write-writer, .post-password {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.writer-input, .password-input {
+    width: 10em;
+    height: 2em;
+}
+
+.post-title {
+    padding: 10px 20px;
+}
+
+.title-input {
+    width: 70em;
+    height: 2.5em;
+}
+
+.post-content {
+    padding: 10px 20px;
+}
+
+.content-input {
+    resize: none;
+}
+
+.post-regist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regist-button {
+    font-size: 1.5rem;
+}
